@@ -2,17 +2,102 @@
 `mkdir -p output/cursors`
 `mkdir -p tmp`
 
-names = Dir["input/*"].map { |input_file| input_file.split("/")[1].split(".")[0] }
+# List of required cursors taken from https://github.com/GNOME/adwaita-icon-theme/tree/master/Adwaita/cursors
+required = [
+    "all-scroll",
+    "bd_double_arrow",
+    "bottom_left_corner",
+    "bottom_right_corner",
+    "bottom_side",
+    "bottom_tee",
+    "cell",
+    "circle",
+    "context-menu",
+    "cross",
+    "crossed_circle",
+    "dnd-ask",
+    "dnd-copy",
+    "dnd-link",
+    "dnd-move",
+    "dnd-no-drop",
+    "dnd-none",
+    "dotbox",
+    "fd_double_arrow",
+    "grabbing",
+    "hand1",
+    "hand2",
+    "left_ptr",
+    "left_ptr_watch",
+    "left_side",
+    "left_tee",
+    "link",
+    "ll_angle",
+    "lr_angle",
+    "move",
+    "pencil",
+    "plus",
+    "pointer-move",
+    "question_arrow",
+    "right_ptr",
+    "right_side",
+    "right_tee",
+    "sb_down_arrow",
+    "sb_h_double_arrow",
+    "sb_left_arrow",
+    "sb_right_arrow",
+    "sb_up_arrow",
+    "sb_v_double_arrow",
+    "tcross",
+    "top_left_corner",
+    "top_right_corner",
+    "top_side",
+    "top_tee",
+    "ul_angle",
+    "ur_angle",
+    "vertical-text",
+    "watch",
+    "X_cursor",
+    "xterm",
+    "zoom-in",
+    "zoom-out",
+]
 
-names.each do |name|
-    `inkscape input/#{name}.svg --export-area-drawing -o tmp/#{name}.png 2>/dev/null`
+required.each do |name|
+    print "#{name}: "
 
-    hotspot_x=-`inkscape input/#{name}.svg -X 2>/dev/null`.to_i
-    hotspot_y=-`inkscape input/#{name}.svg -Y 2>/dev/null`.to_i
+    desc = ""
+    if File.exists?("input/#{name}.svg")
+        print "Generating static image..."
+        `inkscape input/#{name}.svg --export-area-drawing -o tmp/#{name}.png 2>/dev/null`
 
-    `echo "16 #{hotspot_x} #{hotspot_y} tmp/#{name}.png" | xcursorgen - output/cursors/#{name}`
+        hotspot_x=-`inkscape input/#{name}.svg -X 2>/dev/null`.to_i
+        hotspot_y=-`inkscape input/#{name}.svg -Y 2>/dev/null`.to_i
+
+        desc = "16 #{hotspot_x} #{hotspot_y} tmp/#{name}.png"
+    elsif File.exists?("input/#{name}-00.svg")
+        print "Generating animation..."
+        frames = Dir["input/#{name}-??.svg"]
+        desc = []
+        frames.each do |frame|
+            fullname = frame.split("/")[1].split(".")[0]
+            `inkscape input/#{fullname}.svg --export-area-drawing -o tmp/#{fullname}.png 2>/dev/null`
+            hotspot_x=[0, -`inkscape input/#{fullname}.svg -X 2>/dev/null`.to_i].max
+            hotspot_y=[0,-`inkscape input/#{fullname}.svg -Y 2>/dev/null`.to_i].max
+            desc << "16 #{hotspot_x} #{hotspot_y} tmp/#{fullname}.png 100"
+        end
+        desc = desc.join("\n")
+    else
+        print "Creating fallback..."
+        `convert -fill blue -pointsize 32 label:#{name} tmp/#{name}.png`
+        desc = "16 0 0 tmp/#{name}.png"
+    end
+    STDOUT.flush
+    `echo "#{desc}" | xcursorgen - output/cursors/#{name}`
+    puts
+    STDOUT.flush
 end
 
+# List of symlinks taken from https://github.com/GNOME/adwaita-icon-theme/tree/master/Adwaita/cursors
 links = {
     "00008160000006810000408080010102" => "v_double_arrow",
     "028006030e0e7ebffc7f7070c0600140" => "h_double_arrow",
@@ -85,69 +170,4 @@ links = {
 
 links.each do |name, target|
     `ln -sf #{target} output/cursors/#{name}`
-end
-
-required = [
-    "all-scroll",
-    "bd_double_arrow",
-    "bottom_left_corner",
-    "bottom_right_corner",
-    "bottom_side",
-    "bottom_tee",
-    "cell",
-    "circle",
-    "context-menu",
-    "cross",
-    "crossed_circle",
-    "dnd-ask",
-    "dnd-copy",
-    "dnd-link",
-    "dnd-move",
-    "dnd-no-drop",
-    "dnd-none",
-    "dotbox",
-    "fd_double_arrow",
-    "grabbing",
-    "hand1",
-    "hand2",
-    "left_ptr",
-    "left_ptr_watch",
-    "left_side",
-    "left_tee",
-    "link",
-    "ll_angle",
-    "lr_angle",
-    "move",
-    "pencil",
-    "plus",
-    "pointer-move",
-    "question_arrow",
-    "right_ptr",
-    "right_side",
-    "right_tee",
-    "sb_down_arrow",
-    "sb_h_double_arrow",
-    "sb_left_arrow",
-    "sb_right_arrow",
-    "sb_up_arrow",
-    "sb_v_double_arrow",
-    "tcross",
-    "top_left_corner",
-    "top_right_corner",
-    "top_side",
-    "top_tee",
-    "ul_angle",
-    "ur_angle",
-    "vertical-text",
-    "watch",
-    "X_cursor",
-    "xterm",
-    "zoom-in",
-    "zoom-out",
-]
-
-(required - names).each do |name|
-    puts "Creating fallback for '#{name}'..."
-    `convert -fill blue -pointsize 32 label:#{name} tmp/#{name}.png`
-    `echo "16 0 0 tmp/#{name}.png" | xcursorgen - output/cursors/#{name}`
 end

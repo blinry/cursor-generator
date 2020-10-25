@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="8.3212643mm"
+   height="9.2175341mm"
+   viewBox="0 0 8.3212643 9.2175341"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="watch-01.svg">
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect835"
+       is_visible="true"
+       lpeversion="1" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="22.4"
+     inkscape:cx="8.7043425"
+     inkscape:cy="5.2288571"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="3840"
+     inkscape:window-height="2095"
+     inkscape:window-x="2560"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.03545021,-0.10379735)">
+    <path
+       style="opacity:1;fill:#0000ff;fill-rule:evenodd;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round"
+       d="M -3.492901,-4.9638987 -3.8368945,3.2435425 -0.78089842,1.277504 2.0523702,5.3127689 3.3454479,4.5683882 0.65525088,0.37989107 4.0112029,-0.89515311 Z"
+       id="path833"
+       inkscape:path-effect="#path-effect835"
+       inkscape:original-d="M -3.492901,-4.9638987 -3.8368945,3.2435425 -0.78089842,1.277504 2.0523702,5.3127689 3.3454479,4.5683882 0.65525088,0.37989107 4.0112029,-0.89515311 Z"
+       sodipodi:nodetypes="cccccccc" />
+  </g>
+</svg>
