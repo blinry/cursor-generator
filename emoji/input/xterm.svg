@@ -42,19 +42,6 @@
     <path
        id="SVGID_9_"
        d="M67.7,52.1c0,4.42-3.79,8.01-8.48,8.01c-4.68,0-8.47-3.59-8.47-8.01c0-4.43,3.79-8.01,8.47-8.01      C63.9,44.09,67.7,47.67,67.7,52.1z" />
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter983"
-       x="-0.21753169"
-       width="1.4350634"
-       y="-0.18889933"
-       height="1.3777987">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="9.9684807"
-         id="feGaussianBlur985" />
-    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -70,9 +57,9 @@
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
-     inkscape:window-width="2176"
+     inkscape:window-width="1926"
      inkscape:window-height="2095"
-     inkscape:window-x="4224"
+     inkscape:window-x="4474"
      inkscape:window-y="30"
      inkscape:window-maximized="1" />
   <metadata
@@ -92,121 +79,6 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-0.03545021,-0.10379735)">
-    <g
-       id="g913"
-       transform="matrix(0.09477901,0,0,0.09477901,-4.8201304,-5.7401789)"
-       style="opacity:1;fill:#050303;fill-opacity:0.08033226;stroke-width:2.79158;filter:url(#filter983)">
-      <g
-         id="g863"
-         style="fill:#050303;fill-opacity:0.08033226;stroke-width:2.79158" />
-      <g
-         id="g911"
-         style="fill:#050303;fill-opacity:0.08033226;stroke-width:2.79158">
-        <g
-           id="g909"
-           style="fill:#050303;fill-opacity:0.08033226;stroke-width:2.79158">
-          <path
-             style="fill:#050303;fill-opacity:0.08033226;stroke-width:2.79158"
-             d="M 61.06,39.68 C 27.07,38.33 9.28,27.88 9.42,28.37 c 2.43,8.36 45.06,40.07 45.57,44.07 1.97,15.43 1.29,27.05 0.47,31.38 -0.75,3.97 -2.27,6.47 -3.22,7.23 -2.61,2.06 -5.21,2.9 -9.11,3.9 -2.63,0.67 -8.72,1.94 -8.72,5.54 0,4.53 14.78,6.84 26.66,6.84 V 39.68 Z"
-             id="path865" />
-          <path
-             style="fill:#050303;fill-opacity:0.08033226;stroke-width:2.79158"
-             d="m 61.06,39.68 c 33.99,-1.35 51.78,-11.81 51.64,-11.32 -2.43,8.36 -45.06,40.07 -45.57,44.07 -1.97,15.43 -1.29,27.05 -0.47,31.38 0.75,3.97 2.27,6.47 3.22,7.23 2.61,2.06 5.21,2.9 9.11,3.9 2.63,0.67 8.72,1.94 8.72,5.54 0,4.53 -14.78,6.84 -26.66,6.84 V 39.68 Z"
-             id="path867" />
-          <path
-             style="fill:#050303;fill-opacity:0.08033226;stroke-width:2.79158"
-             d="m 45.37,118.48 c -0.82,-0.12 -1.82,0.23 -1.75,0.92 0.06,0.57 0.78,0.89 1.41,1.08 2.51,0.79 6.47,1.17 10.65,1.41 0.57,0.03 1.66,-0.08 2.01,-0.46 0.38,-0.41 0.11,-0.87 -0.38,-1.2 -0.5,-0.34 -1.15,-0.44 -1.77,-0.5 -5.18,-0.44 -6.06,-0.56 -10.17,-1.25 z"
-             id="path869" />
-          <path
-             style="fill:#050303;fill-opacity:0.08033226;stroke-width:2.79158"
-             d="M 61.06,38.33 H 28.25 l 25.97,23 c 3.83,3.39 9.84,3.39 13.67,0 l 25.97,-23 z"
-             id="path871" />
-          <g
-             id="g889"
-             style="fill:#050303;fill-opacity:0.08033226;stroke-width:2.79158">
-            <path
-               style="fill:#050303;fill-opacity:0.08033226;stroke-width:2.79158"
-               d="m 113.11,26.13 c 0,9.95 -23.3,15.5 -52.05,15.5 -28.76,0 -52.05,-5.54 -52.05,-15.5 0,-9.94 23.29,-15.5 52.05,-15.5 28.75,-0.01 52.05,5.55 52.05,15.5 z"
-               id="path873" />
-            <g
-               id="g887"
-               style="fill:#050303;fill-opacity:0.08033226;stroke-width:2.79158">
-              <defs
-                 id="defs877">
-                <path
-                   id="path875"
-                   d="m 107.97,26.13 c 0,7.83 -21,12.19 -46.91,12.19 -25.92,0 -46.91,-4.36 -46.91,-12.19 0,-7.82 20.99,-12.2 46.91,-12.2 25.91,0 46.91,4.37 46.91,12.2 z" />
-              </defs>
-              <use
-                 xlink:href="#SVGID_7_"
-                 style="overflow:visible;fill:#050303;fill-opacity:0.08033226;stroke-width:2.79158"
-                 id="use879"
-                 x="0"
-                 y="0"
-                 width="100%"
-                 height="100%" />
-              <clipPath
-                 id="clipPath883">
-                <use
-                   xlink:href="#SVGID_7_"
-                   style="overflow:visible"
-                   id="use881"
-                   x="0"
-                   y="0"
-                   width="100%"
-                   height="100%" />
-              </clipPath>
-              <path
-                 style="fill:#050303;fill-opacity:0.08033226;stroke-width:2.79158"
-                 d="m 99.92,38.33 c 0,7.83 -17.39,12.19 -38.86,12.19 -21.47,0 -38.86,-4.36 -38.86,-12.19 0,-7.82 17.39,-12.2 38.86,-12.2 21.47,0 38.86,4.38 38.86,12.2 z"
-                 clip-path="url(#SVGID_8_)"
-                 id="path885" />
-            </g>
-          </g>
-          <polygon
-             style="fill:#050303;fill-opacity:0.08033226;stroke-width:2.79158"
-             points="63.25,52.41 75.52,40.09 67.55,40.29 59.35,48.52 "
-             id="polygon891" />
-          <g
-             id="g903"
-             style="fill:#050303;fill-opacity:0.08033226;stroke-width:2.79158">
-            <defs
-               id="defs895">
-              <path
-                 id="path893"
-                 d="m 67.7,52.1 c 0,4.42 -3.79,8.01 -8.48,8.01 -4.68,0 -8.47,-3.59 -8.47,-8.01 0,-4.43 3.79,-8.01 8.47,-8.01 4.68,0 8.48,3.58 8.48,8.01 z" />
-            </defs>
-            <use
-               xlink:href="#SVGID_9_"
-               style="overflow:visible;fill:#050303;fill-opacity:0.08033226;stroke-width:2.79158"
-               id="use897"
-               x="0"
-               y="0"
-               width="100%"
-               height="100%" />
-            <clipPath
-               id="clipPath901">
-              <use
-                 xlink:href="#SVGID_9_"
-                 style="overflow:visible"
-                 id="use899"
-                 x="0"
-                 y="0"
-                 width="100%"
-                 height="100%" />
-            </clipPath>
-          </g>
-          <path
-             style="fill:#050303;fill-opacity:0.08033226;stroke-width:2.79158"
-             d="m 61.06,10.62 c -28.76,0 -52.05,5.56 -52.05,15.5 0,9.95 23.29,15.5 52.05,15.5 28.75,0 52.05,-5.54 52.05,-15.5 0,-9.94 -23.3,-15.5 -52.05,-15.5 z m 0,27.7 c -25.92,0 -46.91,-4.36 -46.91,-12.19 0,-7.82 20.99,-12.2 46.91,-12.2 25.92,0 46.91,4.37 46.91,12.2 0,7.83 -21,12.19 -46.91,12.19 z"
-             id="path905" />
-          <path
-             style="fill:#050303;fill-opacity:0.08033226;stroke-width:2.79158"
-             d="M 117.85,1.81 C 116.77,0.74 115.4,0.36 114.8,0.97 L 78.3,37.61 c 3.11,-0.28 6.08,-0.62 8.82,-1.06 L 118.7,4.86 c 0.61,-0.61 0.23,-1.98 -0.85,-3.05 z"
-             id="path907" />
-        </g>
-      </g>
-    </g>
     <g
        id="g1165"
        transform="matrix(0.09477901,0,0,0.09477901,-5.7189352,-6.6380359)"
