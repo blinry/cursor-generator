@@ -1,5 +1,6 @@
-input = "emoji/input"
-output = "emoji/output"
+theme = "emoji"
+input = "#{theme}/input"
+output = "#{theme}/output"
 
 # Clean up.
 `rm -f #{output}/cursors/*`
