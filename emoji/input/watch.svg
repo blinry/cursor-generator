@@ -28,6 +28,12 @@
        y="0.39"
        width="56.94"
        height="127.23" />
+    <rect
+       id="SVGID_1_-3"
+       x="35.1"
+       y="0.39"
+       width="56.94"
+       height="127.23" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -36,16 +42,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="7.919596"
-     inkscape:cx="25.084362"
-     inkscape:cy="39.221407"
+     inkscape:zoom="11.2"
+     inkscape:cx="18.407729"
+     inkscape:cy="-14.980153"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
-     inkscape:window-width="2065"
+     inkscape:window-width="1933"
      inkscape:window-height="2095"
-     inkscape:window-x="4335"
+     inkscape:window-x="4467"
      inkscape:window-y="30"
      inkscape:window-maximized="1" />
   <metadata
@@ -70,29 +76,29 @@
        transform="matrix(0.09964183,0,0,0.09964183,-5.8493173,-6.1440623)"
        style="stroke-width:2.65534" />
     <g
-       id="g1083"
-       transform="matrix(0.09372428,0,0,0.09372428,-5.8500784,-5.7478627)"
-       style="stroke-width:2.823">
+       id="g1110"
+       transform="matrix(0.09338169,0,0,0.09338169,-5.7260723,-5.9123373)"
+       style="stroke-width:2.83335">
 	<g
-   id="g1029"
-   style="stroke-width:2.823">
+   id="g1056"
+   style="stroke-width:2.83335">
 		<rect
    x="102.47"
    y="54.709999"
-   style="fill:#2f2f2f;stroke-width:2.823"
+   style="fill:#2f2f2f;stroke-width:2.83335"
    width="18.58"
    height="18.57"
-   id="rect1027" />
+   id="rect1054" />
 
 	</g>
 
 	<g
-   id="g1039"
-   style="stroke-width:2.823">
+   id="g1066"
+   style="stroke-width:2.83335">
 		<defs
-   id="defs1032">
+   id="defs1059">
 			<rect
-   id="rect1095"
+   id="rect1122"
    x="35.099998"
    y="0.38999999"
    width="56.939999"
@@ -101,9 +107,9 @@
 		</defs>
 
 		<use
-   xlink:href="#SVGID_1_"
-   style="overflow:visible;fill:#855c52;stroke-width:2.823"
-   id="use1034"
+   xlink:href="#SVGID_1_-3"
+   style="overflow:visible;fill:#855c52;stroke-width:2.83335"
+   id="use1061"
    x="0"
    y="0"
    width="100%"
@@ -112,9 +118,9 @@
 		<clipPath
    id="SVGID_2_">
 			<use
-   xlink:href="#SVGID_1_"
+   xlink:href="#SVGID_1_-3"
    style="overflow:visible"
-   id="use1036"
+   id="use1063"
    x="0"
    y="0"
    width="100%"
@@ -125,25 +131,25 @@
 	</g>
 
 	<g
-   id="g1049"
-   style="stroke-width:2.823">
+   id="g1076"
+   style="stroke-width:2.83335">
 		<g
-   id="g1047"
-   style="stroke-width:2.823">
+   id="g1074"
+   style="stroke-width:2.83335">
 			<g
-   id="g1045"
-   style="stroke-width:2.823">
+   id="g1072"
+   style="stroke-width:2.83335">
 				<circle
-   style="fill:#ffffff;stroke-width:2.823"
+   style="fill:#ffffff;stroke-width:2.83335"
    cx="63.580002"
    cy="64"
    r="48.18"
-   id="circle1041" />
+   id="circle1068" />
 
 				<path
-   style="fill:#2f2f2f;stroke-width:2.823"
+   style="fill:#2f2f2f;stroke-width:2.83335"
    d="M 63.58,114.62 C 35.66,114.62 12.96,91.91 12.96,64 c 0,-27.91 22.71,-50.62 50.62,-50.62 27.91,0 50.62,22.71 50.62,50.62 0,27.91 -22.71,50.62 -50.62,50.62 z m 0,-96.36 c -25.22,0 -45.74,20.52 -45.74,45.74 0,25.22 20.52,45.74 45.74,45.74 25.22,0 45.74,-20.52 45.74,-45.74 C 109.31,38.78 88.8,18.26 63.58,18.26 Z"
-   id="path1043" />
+   id="path1070" />
 
 			</g>
 
@@ -152,13 +158,13 @@
 	</g>
 
 	<g
-   id="g1057"
-   style="stroke-width:2.823">
+   id="g1084"
+   style="stroke-width:2.83335">
 		<circle
-   style="fill:#2f2f2f;stroke-width:2.823"
+   style="fill:#2f2f2f;stroke-width:2.83335"
    cx="63.580002"
    cy="64"
-   id="ellipse1051"
+   id="ellipse1078"
    r="7.75" />
 
 		
@@ -166,79 +172,79 @@
    x="59.57"
    y="50.360001"
    transform="matrix(0.8679,-0.4968,0.4968,0.8679,-16.1695,47.3603)"
-   style="fill:#2f2f2f;stroke-width:2.823"
+   style="fill:#2f2f2f;stroke-width:2.83335"
    width="42.740002"
    height="7.4400001"
-   id="rect1053" />
+   id="rect1080" />
 
 		<polygon
-   style="fill:#2f2f2f;stroke-width:2.823"
+   style="fill:#2f2f2f;stroke-width:2.83335"
    points="62.9,67.89 38.19,53.58 41.91,47.14 66.62,61.45 "
-   id="polygon1055" />
+   id="polygon1082" />
 
 	</g>
 
 	<path
-   style="fill:#ffffff;stroke-width:2.823"
+   style="fill:#ffffff;stroke-width:2.83335"
    d="m 66.5,64 c 0,1.62 -1.3,2.93 -2.92,2.93 -1.61,0 -2.92,-1.31 -2.92,-2.93 0,-1.6 1.31,-2.91 2.92,-2.91 1.61,0 2.92,1.31 2.92,2.91 z"
-   id="path1059" />
+   id="path1086" />
 
 	<path
-   style="fill:#2f2f2f;stroke-width:2.823"
+   style="fill:#2f2f2f;stroke-width:2.83335"
    d="m 106.05,64 c 0,1.62 -1.31,2.93 -2.92,2.93 -1.62,0 -2.92,-1.31 -2.92,-2.93 0,-1.6 1.3,-2.91 2.92,-2.91 1.61,0 2.92,1.31 2.92,2.91 z"
-   id="path1061" />
+   id="path1088" />
 
 	<path
-   style="fill:#2f2f2f;stroke-width:2.823"
+   style="fill:#2f2f2f;stroke-width:2.83335"
    d="m 84.82,27.21 c 1.39,0.81 1.87,2.59 1.07,3.99 -0.81,1.39 -2.59,1.87 -3.99,1.06 -1.4,-0.8 -1.88,-2.6 -1.07,-3.99 0.8,-1.38 2.59,-1.86 3.99,-1.06 z"
-   id="path1063" />
+   id="path1090" />
 
 	<path
-   style="fill:#2f2f2f;stroke-width:2.823"
+   style="fill:#2f2f2f;stroke-width:2.83335"
    d="m 42.33,27.21 c 1.4,-0.8 3.19,-0.33 3.99,1.06 0.8,1.4 0.33,3.19 -1.06,3.99 -1.4,0.81 -3.19,0.34 -3.99,-1.07 -0.81,-1.39 -0.33,-3.17 1.06,-3.98 z"
-   id="path1065" />
+   id="path1092" />
 
 	<circle
-   style="fill:#2f2f2f;stroke-width:2.823"
+   style="fill:#2f2f2f;stroke-width:2.83335"
    cx="63.580002"
    cy="24.440001"
-   id="ellipse1067"
+   id="ellipse1094"
    r="2.9200001" />
 
 	<path
-   style="fill:#2f2f2f;stroke-width:2.823"
+   style="fill:#2f2f2f;stroke-width:2.83335"
    d="m 26.79,42.76 c 0.81,-1.39 2.59,-1.87 3.99,-1.06 1.39,0.81 1.87,2.58 1.07,3.98 -0.8,1.4 -2.59,1.88 -3.99,1.07 -1.39,-0.81 -1.88,-2.59 -1.07,-3.99 z"
-   id="path1069" />
+   id="path1096" />
 
 	<path
-   style="fill:#2f2f2f;stroke-width:2.823"
+   style="fill:#2f2f2f;stroke-width:2.83335"
    d="m 21.1,64 c 0,-1.61 1.3,-2.92 2.91,-2.91 1.62,0 2.92,1.3 2.92,2.91 0,1.61 -1.3,2.93 -2.92,2.91 -1.61,0 -2.91,-1.29 -2.91,-2.91 z"
-   id="path1071" />
+   id="path1098" />
 
 	<path
-   style="fill:#2f2f2f;stroke-width:2.823"
+   style="fill:#2f2f2f;stroke-width:2.83335"
    d="m 26.79,85.24 c -0.8,-1.4 -0.32,-3.18 1.07,-3.99 1.4,-0.81 3.18,-0.33 3.99,1.07 0.8,1.4 0.32,3.18 -1.07,3.98 -1.4,0.81 -3.19,0.33 -3.99,-1.06 z"
-   id="path1073" />
+   id="path1100" />
 
 	<path
-   style="fill:#2f2f2f;stroke-width:2.823"
+   style="fill:#2f2f2f;stroke-width:2.83335"
    d="m 42.33,100.79 c -1.39,-0.81 -1.87,-2.59 -1.07,-3.98 0.81,-1.4 2.59,-1.88 3.99,-1.07 1.4,0.8 1.87,2.6 1.07,3.99 -0.8,1.39 -2.6,1.87 -3.99,1.06 z"
-   id="path1075" />
+   id="path1102" />
 
 	<path
-   style="fill:#2f2f2f;stroke-width:2.823"
+   style="fill:#2f2f2f;stroke-width:2.83335"
    d="m 63.58,106.48 c -1.62,0 -2.92,-1.31 -2.92,-2.92 0,-1.61 1.29,-2.92 2.92,-2.92 1.61,0 2.92,1.31 2.91,2.92 0.01,1.61 -1.31,2.92 -2.91,2.92 z"
-   id="path1077" />
+   id="path1104" />
 
 	<path
-   style="fill:#2f2f2f;stroke-width:2.823"
+   style="fill:#2f2f2f;stroke-width:2.83335"
    d="m 84.81,100.79 c -1.4,0.8 -3.18,0.33 -3.99,-1.06 -0.8,-1.4 -0.32,-3.18 1.07,-3.99 1.39,-0.81 3.19,-0.33 3.99,1.07 0.81,1.38 0.33,3.17 -1.07,3.98 z"
-   id="path1079" />
+   id="path1106" />
 
 	<path
-   style="fill:#2f2f2f;stroke-width:2.823"
+   style="fill:#2f2f2f;stroke-width:2.83335"
    d="m 100.37,85.24 c -0.82,1.39 -2.6,1.87 -3.99,1.07 -1.41,-0.81 -1.88,-2.59 -1.08,-3.98 0.81,-1.4 2.6,-1.88 4,-1.07 1.39,0.8 1.87,2.59 1.07,3.98 z"
-   id="path1081" />
+   id="path1108" />
 
 </g>
   </g>

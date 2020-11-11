@@ -32,11 +32,11 @@ required.each do |name|
         frames = Dir["#{input}/#{name}-??.svg"]
         desc = []
         frames.each do |frame|
-            fullname = frame.split("/")[1].split(".")[0]
+            fullname = frame.split("/").last.split(".")[0]
             `inkscape #{input}/#{fullname}.svg --export-area-drawing -o tmp/#{fullname}.png 2>/dev/null`
             hotspot_x=[0, -`inkscape #{input}/#{fullname}.svg -X 2>/dev/null`.to_i].max
             hotspot_y=[0,-`inkscape #{input}/#{fullname}.svg -Y 2>/dev/null`.to_i].max
-            desc << "16 #{hotspot_x} #{hotspot_y} tmp/#{fullname}.png 100"
+            desc << "16 #{hotspot_x} #{hotspot_y} tmp/#{fullname}.png 150"
         end
         desc = desc.join("\n")
     else
