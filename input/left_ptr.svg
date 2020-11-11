@@ -13,7 +13,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
-   sodipodi:docname="default.svg">
+   sodipodi:docname="left_ptr.svg">
   <defs
      id="defs2">
     <inkscape:path-effect
@@ -29,17 +29,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="11.2"
-     inkscape:cx="11.861182"
-     inkscape:cy="10.013914"
+     inkscape:zoom="29.412879"
+     inkscape:cx="-0.72283591"
+     inkscape:cy="6.7653162"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
-     inkscape:window-width="3840"
-     inkscape:window-height="2125"
-     inkscape:window-x="2560"
-     inkscape:window-y="0"
+     inkscape:window-width="2560"
+     inkscape:window-height="1440"
+     inkscape:window-x="0"
+     inkscape:window-y="1080"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
@@ -58,12 +58,11 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-0.03545021,-0.10379735)">
-    <path
-       style="opacity:1;fill:#0000ff;fill-rule:evenodd;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round"
-       d="M 0.04274028,0.09600551 1.0614514,8.2472416 3.7500364,5.8026702 7.2119104,9.3135394 8.3640044,8.3654719 5.0178771,4.6798105 8.1166124,2.8670802 Z"
-       id="path833"
-       inkscape:path-effect="#path-effect835"
-       inkscape:original-d="M 0.04274028,0.09600551 1.0614514,8.2472416 3.7500364,5.8026702 7.2119104,9.3135394 8.3640044,8.3654719 5.0178771,4.6798105 8.1166124,2.8670802 Z"
-       sodipodi:nodetypes="cccccccc" />
+    <circle
+       style="fill:#0000ff;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round"
+       id="path832"
+       cx="0.047102388"
+       cy="0.13359901"
+       r="0.832488" />
   </g>
 </svg>
